@@ -1,9 +1,2 @@
-FROM debian:lastest
-
-#package stuff
-RUN apt update && apt upgrade -y
-RUN apt install apache2 -y
-
-
-#copy important files
-COPY . /website
+FROM httpd:2.4
+COPY . /usr/local/apache2/htdocs/
