@@ -5,7 +5,8 @@ sudo apt install update -y && sudo apt install upgrade -y && sudo apt install gi
 sudo usermod -aG docker ubuntu
 
 #chmod scripts
-chmod 744 /website/start.sh /website/restart.sh
+ch website/
+chmod 744 start.sh restart.sh
 
 #start container
 ./website/start.sh
