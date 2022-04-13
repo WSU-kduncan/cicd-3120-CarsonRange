@@ -142,4 +142,6 @@ Resources:
               docker \
               apache2 \
               git \
+            git clone https://github.com/WSU-kduncan/cicd-3120-CarsonRange.git
+            chmod 700 cicd-3120-CarsonRange/blob/master/website/start.sh
             reboot
