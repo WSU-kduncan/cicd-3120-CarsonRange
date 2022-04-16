@@ -1,2 +1,2 @@
 FROM httpd:2.4
-COPY . /usr/local/apache2/htdocs/
+COPY ~/cicd-3120-CarsonRange/website /usr/local/apache2/htdocs/
