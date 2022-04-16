@@ -94,6 +94,10 @@ Resources:
         - IpProtocol: tcp
           FromPort: '22'
           ToPort: '22'
+          CidrIp: 76.248.201.143/32  # grandparents cidr
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
           CidrIp: 130.108.0.0/16  # WSU CIDR
         - IpProtocol: tcp
           FromPort: '22'

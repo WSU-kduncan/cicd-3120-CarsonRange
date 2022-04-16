@@ -3,10 +3,3 @@ sudo apt install update -y && sudo apt install upgrade -y && sudo apt install gi
 
 #add current user to docker group
 sudo usermod -aG docker ubuntu
-
-#chmod scripts
-ch website/
-chmod 744 start.sh restart.sh
-
-#start container
-./website/start.sh
