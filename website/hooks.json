@@ -1,7 +1,6 @@
 [
     { 
       "id": "ENDPOINT-NAME",
-      "execute-command": "./website/restart.sh",
-      "command-working-directory": "~/cicd-3120-CarsonRange"
+      "execute-command": "/home/ubuntu/cicd-3120-CarsonRange/website/restart.sh"
     }
 ]
