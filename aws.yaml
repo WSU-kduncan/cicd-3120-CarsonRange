@@ -103,6 +103,10 @@ Resources:
           FromPort: '22'
           ToPort: '22'
           CidrIp: 174.101.58.146/32 # home CIDR
+        - IpProtocol: tcp
+          FromPort: '9000'
+          ToPort: '9000'
+          CidrIp: 0.0.0.0/0  
         - IpProtocol: -1
           FromPort: '-1'
           ToPort: '-1'
