@@ -1,4 +1,5 @@
 #kill and rm
+docker image prune -f
 docker stop my-running-app
 docker rm my-running-app
 
