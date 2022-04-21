@@ -33,8 +33,11 @@
 * webhooks -> <name> <url> create (make sure the url is the port webhooks is listening on, and /hooks/{id} whatever your webhook id name is)
 
 ## Part 4
+  Part 1
 ![Part 1](part1.png)
 
+  Part 2
 ![Part 2](part2.png)
-
+  
+  Part 3
 ![Part 3](part3.png)
